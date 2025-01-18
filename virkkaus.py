@@ -33,9 +33,18 @@ def bonusing():
         return "Ja tee sama vielä jonnekin toisaalle työssäsi. Sitten ei kun virkkaamaan!"
     else:
         return "Ja sitten ei kun virkkaamaan!"
+
+# arpoo, kehotetaanko vaihtamaan langan juoksevuutta
+
+juoksevuus_bool = random.choice([True, False])
+def juoksevuus():
+    if juoksevuus_bool == True:
+        return "Heeeeei, vaihdapa muuten langan juoksevuuttakin."
+    else:
+        return ""
     
 # luo ja tulostaa lopullisen ohjeistuksen
 
-ohjeistus = f"Tee {lanka} {nro} {silmukka} {ohje}. {bonusing()}"
+ohjeistus = f"Tee {lanka} {nro} {silmukka} {ohje}. {bonusing()} {juoksevuus()}"
 
 print(ohjeistus)
