@@ -2,19 +2,19 @@
 
 import random
 
-# lisää lankojen värejä lisäämällä väri adessiivissä, '-merkkien välissä, pilkulla aiemmista erotettuna, poista ottamalla pois '-merkit, niiden välinen sana ja edeltävä pilkku
+# lisää lankojen värejä lisäämällä hakasulkujen sisään väri adessiivissä, '-merkkien välissä, pilkulla aiemmista erotettuna, poista ottamalla pois '-merkit, niiden välinen sana ja edeltävä pilkku
 
 langat = ['pinkillä', 'punaisella', 'vihreällä', 'sinisellä', 'valkoisella', 'harmaalla', 'monivärisellä']
 
 lanka = random.choice(langat)
 
-# lisää erilaisia silmukkatyylejä sopivassa taivutusmuodossa (partitiivi tai instruktiivi yleensä), poista ottamalla pois '-merkit, niiden välinen ilmaisu ja edeltävä pilkku
+# lisää erilaisia silmukkatyylejä hakasulkujen sisään sopivassa taivutusmuodossa (partitiivi tai instruktiivi yleensä), poista ottamalla pois '-merkit, niiden välinen ilmaisu ja edeltävä pilkku
 
 silmukat = ['kerrosta kiintein silmukoin', 'ketjusilmukkaa', 'piilosilmukkaa', 'kiinteää silmukkaa', 'puolipylvästä', 'pylvästä', 'pitkää pylvästä', 'erikoispitkää pylvästä', 'kertaa kaksi pylvästä yhteen silmukkaan', 'kertaa kolme pylvästä yhteen silmukkaan', 'kertaa neljä pylvästä yhteen silmukkaan', 'popcornia']
 
 silmukka = random.choice(silmukat)
 
-# lisää ohjeita laittamalla ne '-merkkien välissä, pilkulla aiemmista erotettuna; poista ottamalla pois '-merkit, niiden välissä olevat sanat sekä edeltävä pilkku
+# lisää ohjeita laittamalla ne '-merkkien välissä hakasulkujen sisään, pilkulla aiemmista erotettuna; poista ottamalla pois '-merkit, niiden välissä olevat sanat sekä edeltävä pilkku
 
 ohjeet = ['suoraan edeten', 'taaksepäin siitä missä olet', 'päinvastaiseen kohtaan kuin missä nyt olet', 'yllättävään kohtaan työssäsi', 'keskelle työtäsi', 'hankalaan kohtaan työssäsi', 'kohtaan, johon et oikeastaan tahtoisi tehdä']
 
